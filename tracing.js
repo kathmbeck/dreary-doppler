@@ -1,6 +1,7 @@
 // tracing.js
 import { NodeSDK } from '@opentelemetry/sdk-node';
-import { Resource } from '@opentelemetry/resources';
+import pkg from '@opentelemetry/resources';
+const { Resource } = pkg;
 import { SemanticResourceAttributes } from '@opentelemetry/semantic-conventions';
 import { ConsoleSpanExporter } from '@opentelemetry/sdk-trace-base';
 import { SimpleSpanProcessor } from '@opentelemetry/sdk-trace-base';
