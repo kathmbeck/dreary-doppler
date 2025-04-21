@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/netlify": "^6.3.0",
     "@opentelemetry/api": "^1.9.0",
     "@opentelemetry/resources": "^2.0.0",
     "@opentelemetry/sdk-node": "^0.200.0",
